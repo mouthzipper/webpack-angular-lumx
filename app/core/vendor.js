@@ -1,0 +1,1 @@
+module.exports = function () {    //styles    require( '../index.scss' );    //js    require( 'angular' );};
