@@ -1,4 +1,4 @@
-module.exports = angular.module('app', []);
+module.exports = angular.module('app', [ 'lumx' ]);
 // default params
 function printMessage ( status='working' ) {
 // let

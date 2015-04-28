@@ -1,1 +1,1 @@
-module.exports = function () {    //styles    require( '../index.scss' );    //js    require( 'angular' );};
+module.exports = function () {	//styles	require( '../index.scss' );	//js	global.$ = global.jQuery = require('jquery');   // $ for Lumx, jQuery for velocity	require( 'velocity-animate' );  	require('angular');  	global.moment = require('moment');  	require('imports?angular!../bower_components/lumx/dist/lumx.js');};
