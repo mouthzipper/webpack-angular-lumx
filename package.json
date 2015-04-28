@@ -10,16 +10,25 @@
   "main": "build/index.js",
   "keywords": [],
   "dependencies": {
-    "angular": "^1.3.15"
+    "angular": "^1.3.15",
+    "jquery": "^2.1.3",
+    "mdi": "^1.0.8-beta",
+    "moment": "^2.10.2",
+    "velocity": "^0.7.2",
+    "velocity-animate": "^1.2.2"
   },
   "devDependencies": {
     "babel-core": "^5.1.13",
     "babel-loader": "^5.0.0",
     "css-loader": "^0.12.0",
+    "file-loader": "^0.8.1",
+    "imports-loader": "^0.6.3",
     "jshint": "^2.7.0",
     "jshint-loader": "^0.8.3",
+    "json-loader": "^0.5.1",
     "ng-annotate-loader": "0.0.2",
     "node-sass": "^2.1.1",
+    "raw-loader": "^0.5.1",
     "sass-loader": "^0.6.0",
     "style-loader": "^0.12.1",
     "webpack": "^1.8.10",
